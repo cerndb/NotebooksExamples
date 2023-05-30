@@ -4,5 +4,5 @@ the CERN service for interactive data analysis in the cloud.
 See [SWAN Gallery](https://swan-gallery.web.cern.ch/) for more information.
 
 ### Contents
-- [DeepLearning-GPU](DeepLearning-GPU) - notebook examples of poplar Deep Learning tools and frameworks, running on GPU
-- [Data tools](DataTools) - notebook examples of general-purpose data analysis tools, including Pandas
+- [DeepLearning-GPU](DeepLearning-GPU) - notebook with examples of popular Deep Learning tools and frameworks, running on GPU, including TensorFlow, Pytorch, Lightning, Transformers.
+- [Data tools](DataTools) - notebook with examples of general-purpose data analysis tools, including Pandas, Numpy, databases (Oracle and PostgreSQL).
