@@ -1,7 +1,9 @@
-# Notebooks Examples
+# Notebook Examples - Deep Learning and Data Tools
 This repository contains Jupyter notebook examples, intended to be used with [SWAN](https://swan.web.cern.ch/),
 the CERN service for interactive data analysis in the cloud.
 See [SWAN Gallery](https://swan-gallery.web.cern.ch/) for more information.
+
+Contact: Luca.Canali@cern.ch
 
 ### Contents
 - [DeepLearning-GPU](DeepLearning-GPU) - notebook with examples of popular Deep Learning tools and frameworks, running on GPU, including TensorFlow, Pytorch, Lightning, Transformers.

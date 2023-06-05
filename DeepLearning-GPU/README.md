@@ -10,6 +10,8 @@ To use GPU resources in [SWAN](https://swan.web.cern.ch/), you need to
  - select a software stack with `GPU`
    - to get the latest version of the tools used here select the 'bleeding edge' software stack
 
+Contact: Luca.Canali@cern.ch
+
 ## Getting started with Deep Learning
 These notebooks implement a classifier for digit recognition using the MNIST dataset, it is a sort of "Hello World!" for Deep Learning.
 
@@ -33,10 +35,10 @@ it processed using Pandas, and then fed into the DL training step.
   
 ![][classifier_image]
   
-* [TensorFlow classifier with Pandas](TensorFlow_Keras_HLF_with_Pandas_Parquet.ipynb)
-* [Pytorch classifier with Pandas](PyTorch_HLF_with_Pandas_Parquet.ipynb)
-* [Pytorch Lightning classifier with Pandas](PyTorch_Lightning_HLF_with_Pandas_Parquet.ipynb)
-* [XGBoost classifier with Pandas](XGBoost_with_Pandas_Parquet.ipynb)
+* [TensorFlow classifier with data from Pandas](TensorFlow_Keras_HLF_with_Pandas_Parquet.ipynb)
+* [Pytorch classifier with data from Pandas](PyTorch_HLF_with_Pandas_Parquet.ipynb)
+* [Pytorch Lightning classifier with data from Pandas](PyTorch_Lightning_HLF_with_Pandas_Parquet.ipynb)
+* [XGBoost classifier with data from Pandas](XGBoost_with_Pandas_Parquet.ipynb)
 
 ## More advanced Data pipelines
 These examples show some more advanced data pipelines, useful for training with large data sets. They show how to use
@@ -50,7 +52,14 @@ the Petastorm library to read data from Parquet files with TensorFlow and PyTorc
 [classifier_image]:https://github.com/cerndb/SparkDLTrigger/raw/master/Docs/Physics_use_case.png
 
 ## Additional complexity with models and data
-This example implements the same particle classifier as in the previous examples, but with a more complex model 
+These examples implement the same particle classifier as in the previous examples, but with a more complex model 
 and bigger data set.  
 
-* [TensorFlow for the Inclusive Classifier, with GRU and TFRecord](TensorFlow_Inclusive_Classifier_TFRecord.ipynb)
+* [Data in TFRecord, TensorFlow on GPU, GRU-based model](TensorFlow_Inclusive_Classifier_GRU_TFRecord.ipynb)
+   - Description: This notebook showcases the training process for the Inclusive Particle Classifier model, 
+     using data stored in TFRecord format.
+   - TensorFlow is configured to run on a GPU, and a GRU-based model architecture is employed.
+* [Data in TFRecord, TensorFlow on GPU, Transformer-based model](TensorFlow_Inclusive_Classifier_Transformer_TFRecord.ipynb)
+   - Description: This notebook showcases the training process for the Inclusive Particle Classifier model,
+     using data stored in TFRecord format.
+   - TensorFlow is configured to run on a GPU, and a Transformer-based model architecture is employed.
