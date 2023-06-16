@@ -26,7 +26,7 @@ These notebooks provide examples of how to use LLMs in notebook environments for
 * [Transformers Large Language Models](Transformers_Large_Language_Models.ipynb)
 * [LangChain LLMs](LangChain_LLMs.ipynb)
 
-## Semantic search
+## Semantic search with Vector Databases and LLM
 Semantic search allows to query a set of documents. This examples shows how to create
 vector embeddings, store them in a vector database, and perform semantic queries enhanced with LLM.
-* [Semantic search with Vector DB](LangChain_OpenSearch_semantic_search_with_Vector_DB.ipynb)
+* [Semantic search with Vector Databases and LLM](LangChain_OpenSearch_semantic_search_with_Vector_DB.ipynb)
