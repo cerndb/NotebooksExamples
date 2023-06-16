@@ -19,15 +19,6 @@ These notebooks implement a classifier for digit recognition using the MNIST dat
 * [MNIST with PyTorch](PyTorch_MNIST.ipynb)
 * [MNIST with Pytorch Lightning](PyTorch_Lightning_MNIST.ipynb)
 
-## Transformers library
-This is to illustrate the use of the Transformers library from Hugging Face for LLM, Natural Language Processing (NLP), image, and speech tasks.
-
-* [Transformers for LLM with Dolly](Transformers_LLM_Dolly.ipynb)
-* [Transformers for text classification](Transformers_text_example.ipynb)
-* [Transformers for image classifier](Transformers_image_example.ipynb)
-* [Stable diffusion with transformers](Transformers_stable_diffusion_example.ipynb)
-* [Transformers for speech recognition](Transformers_speech_recognition.ipynb)
-
 ## Deep Learning and basic Data pipelines
 These notebooks provide examples of how to integrate Deep Learning frameworks with some basic data pipelines using Pandas to feed data into the DL training step.  
 They implement a  Particle classifier using different DL frameworks. The data is stored in Parquet format, which is a columnar format that is very efficient for reading data,
