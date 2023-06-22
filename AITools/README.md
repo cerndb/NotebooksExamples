@@ -27,6 +27,6 @@ These notebooks provide examples of how to use LLMs in notebook environments for
 * [LangChain LLMs](LangChain_LLMs.ipynb)
 
 ## Semantic search with Vector Databases and LLM
-Semantic search allows to query a set of documents. This examples shows how to create
+Semantic search allows to query a set of documents. This example notebook shows how to create
 vector embeddings, store them in a vector database, and perform semantic queries enhanced with LLM.
 * [Semantic search with Vector Databases and LLM](LangChain_OpenSearch_semantic_search_with_Vector_DB.ipynb)

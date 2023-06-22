@@ -8,7 +8,7 @@ Contact: Luca.Canali@cern.ch
 
 ### Contents
 - [AI Tools](AITools) 
-  - Examples notebooks illustratinf of some popular frameworks and libraries for "AI applications",
+  - Examples notebooks illustrating of some popular frameworks and libraries for "AI applications",
     including: semantic search, vector databases, large language models, image classification.
 - [DeepLearning Examples](DeepLearning-GPU) 
   - Examples of popular Deep Learning tools and frameworks, running on GPU, including TensorFlow, Pytorch, Lightning, Transformers.
