@@ -5,10 +5,9 @@
 
 This folder contains Jupyter notebook examples of common deep learning tools, running on GPU resources.  
 To use GPU resources in [SWAN](https://swan.web.cern.ch/), you need to
- - open a ticket with the SWAN team to get access to GPU resources
- - use SWAN from  https://swan-k8s.cern.ch 
- - select a software stack with `GPU`
-   - to get the latest version of the tools used here select the 'bleeding edge' software stack
+ - Access SWAN form you browser: https://swan.cern.ch
+ - Select a software stack with `GPU`
+   - To get the latest version of the tools used here select the 'bleeding edge' software stack
 
 Contact: Luca.Canali@cern.ch
 
@@ -35,7 +34,7 @@ it processed using Pandas, and then fed into the DL training step.
 These examples show some more advanced data pipelines, useful for training with large data sets. They show how to use
 the Petastorm library to read data from Parquet files with TensorFlow and PyTorch, and how to use the TFRecord format with TensorFlow.
 
-* [TensorFLow and Petastorm](TensorFlow_Keras_HLF_with_Petastorm_Parquet.ipynb)
+* [TensorFlow and Petastorm](TensorFlow_Keras_HLF_with_Petastorm_Parquet.ipynb)
 * [PyTorch and Petastorm](PyTorch_HLF_with_Petastorm_Parquet.ipynb)
 * [TensorFlow with TFRecord](TensorFlow_Keras_HLF_with_TFRecord.ipynb)
 
