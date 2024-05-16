@@ -5,7 +5,7 @@
 
 This folder contains Jupyter notebook examples of common deep learning tools, running on GPU resources.  
 To use GPU resources in [SWAN](https://swan.web.cern.ch/), you need to
- - Access SWAN form you browser: https://swan.cern.ch
+ - Access SWAN from you browser: https://swan.cern.ch
  - Select a software stack with `GPU`
    - To get the latest version of the tools used here select the 'bleeding edge' software stack
 
